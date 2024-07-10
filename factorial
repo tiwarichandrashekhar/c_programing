@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {     // 
+    int num, i=1,f=1;
+  printf("enter the number for the factorial");
+  scanf("%d",&num);
+  while(i<=num)
+  {
+      f=f*i;    //f1,1,2,3,9,
+      i++;      //i1,2,34
+  }
+  printf("%d",f);
+
+    return 0;
+}
